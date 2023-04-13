@@ -1,0 +1,31 @@
+.departments-cnt {
+    background-color: #fff;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    padding: 10vw 0;
+}
+
+.lorem-ipsum-txt {
+    font-size: 3vw;
+}
+
+.departments-txt {
+    font-size: 4vw;
+}
+
+.departments-block {
+    display: flex;
+    column-gap: 2vw;
+    row-gap: 1vw;
+    justify-content: center;
+    background-color: #000;
+    flex-wrap: wrap;
+    margin: 5vw 8rem 0 8rem;
+    padding: 2vw;
+    color: #fff;
+}
+
+.department {
+    font-size: 2vw;
+}

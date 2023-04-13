@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineCloseSquare } from 'react-icons/ai';
 import HeaderDropDown from './HeaderDropDown';
-import "../Stylesheets/header.css";
+import "../stylesheets/header.css";
 
 const Header = () => {
 

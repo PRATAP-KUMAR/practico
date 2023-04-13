@@ -1,0 +1,25 @@
+.visits-cnt {
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 12rem;
+    padding: 2rem;
+}
+
+.visits-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    border: 0.2px solid #efefef;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 2vw;
+    color: blue;
+    border: 0.2px solid #efefef;
+}

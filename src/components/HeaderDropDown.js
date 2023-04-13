@@ -1,4 +1,4 @@
-import "../Stylesheets/headerDropDown.css";
+import "../stylesheets/headerDropDown.css";
 
 const HeaderDropDown = () => {
     const linkItems = ['HOME', 'ABOUT', 'SERVICES', 'PRODUCTS', 'CONTACT', 'LOGIN'];

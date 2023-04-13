@@ -1,0 +1,59 @@
+.intro-cnt {
+    padding: 12vw 0 12vw 12vw;
+    text-align: start;
+    background-color: darkcyan;
+    overflow: auto;
+}
+
+.tour-txt {
+    font-size: 3vw;
+    color: maroon;
+}
+
+.company-txt {
+    font-size: 4vw;
+}
+
+.industry-txt {
+    font-size: 3vw;
+}
+
+.book-now-btn {
+    background-color: #fff;
+    border: none;
+    color: orangered;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+}
+
+.video {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.play-btn {
+    font-size: 5vw;
+    cursor: pointer;
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: scale(0.4);
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+.play-video-txt {
+    font-size: 3vw;
+}

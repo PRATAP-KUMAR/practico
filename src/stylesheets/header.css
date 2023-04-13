@@ -3,13 +3,16 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        height: 80px;
+        height: 6vh;
         align-items: center;
-        padding: 0 2rem;
+        padding: 0 2vw;
+        top: 0;
+        position: sticky;
+        z-index: 9;
     }
 
     .logo-txt {
-        font-size: 32px;
+        font-size: 4vh;
         font-weight: bold;
     }
 
@@ -20,17 +23,10 @@
     @media only screen and (max-width: 720px) {
         .hamburger-menu {
             display: grid;
-            font-size: 48px;
-            border: 2px solid lightcoral;
+            font-size: 4vh;
         }
 
         .hide-items {
             display: none;
-        }
-
-        .header-dropdown {
-            font-size: 24px;
-            background-color: #000;
-            padding-left: 2rem;
         }
     }
